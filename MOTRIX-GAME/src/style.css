@@ -1,0 +1,21 @@
+*{box-sizing:border-box}
+body{margin:0;background:#1b1340;font-family:"Trebuchet MS","Comic Sans MS",sans-serif;color:#fff}
+#wrap{position:relative;max-width:960px;margin:0 auto}
+canvas{width:100%;display:block;cursor:none;background:#000;touch-action:none}
+.ov{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;
+  background:radial-gradient(circle at 50% 30%,#5b3df5,#1b1340);text-align:center}
+.hidden{display:none!important}
+h1{font-size:64px;margin:0;letter-spacing:2px}
+p{margin:0;font-size:20px}
+.row{display:flex;gap:16px;flex-wrap:wrap;justify-content:center}
+button{font:inherit;font-size:24px;padding:16px 28px;border:4px solid #fff;border-radius:22px;background:#ff8a3d;color:#fff;cursor:pointer}
+button:hover,button:focus-visible{background:#ffb347;outline:4px solid #ffe066}
+#lv button{background:#3a2d8f}
+#lv button.on{background:#22c55e}
+.card{width:260px;display:flex;flex-direction:column;gap:6px;font-size:56px;background:#2d2377}
+.card b{font-size:26px}.card i{font-size:16px;font-style:normal}
+#hud{position:absolute;top:10px;left:10px;right:10px;display:flex;gap:12px;align-items:center;pointer-events:none}
+#hud button{pointer-events:auto;font-size:20px;padding:8px 18px}
+#hud span{font-size:30px;font-weight:bold;background:#0008;padding:4px 16px;border-radius:16px}
+#tm{margin-left:auto}
+#res{font-size:28px;line-height:1.6}

@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/pmndrs.schema.json",
+  "title": "Minecraft",
+  "description": "Mini Minecraft implementation.",
+  "tags": ["controls", "game"],
+  "authors": ["Paul Henschel"],
+  "publishedAt": "2020-09-09",
+  "source": "https://codesandbox.io/s/vkgi6",
+  "libraries": [
+    "@react-three/drei",
+    "@react-three/fiber",
+    "@react-three/rapier",
+    "zustand"
+  ],
+  "assets": []
+}
